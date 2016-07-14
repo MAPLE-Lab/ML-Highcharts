@@ -44,8 +44,6 @@ $(document).ready(function () {
         },]
     });
     $('#SMPC-2016-Figure1').css({
-        "left": "500px",
-        "top": "1600px",
         "position": "relative"
     });
 });

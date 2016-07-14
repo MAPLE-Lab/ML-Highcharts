@@ -4,8 +4,6 @@
 $(document).ready(function () {
 
     $('#QJEP-2016-Figure3').css({
-        "left": "500px",
-        "top": "400px",
         "position": "relative"
     });
     $('#QJEP-2016-fig3-1').highcharts({
@@ -55,7 +53,7 @@ $(document).ready(function () {
         }]
     });
     $('#QJEP-2016-fig3-1').css({
-        "left": "-300px",
+        "left": "0px",
         "position": "absolute"
     });
     $('#QJEP-2016-fig3-2').highcharts({
@@ -105,7 +103,7 @@ $(document).ready(function () {
         }]
     });
     $('#QJEP-2016-fig3-2').css({
-        "left": "0px",
+        "left": "300px",
         "position": "absolute"
     });
     $('#QJEP-2016-fig3-3').highcharts({
@@ -155,7 +153,7 @@ $(document).ready(function () {
         }]
     });
     $('#QJEP-2016-fig3-3').css({
-        "left": "300px",
+        "left": "600px",
         "position": "absolute"
     });
 });

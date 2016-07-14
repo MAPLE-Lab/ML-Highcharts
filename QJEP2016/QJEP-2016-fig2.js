@@ -3,7 +3,6 @@
  */
 $(document).ready(function () {
     $('#QJEP-2016-Figure2').css({
-        "left": "400px",
         "position": "relative"
     })
     $('#QJEP-2016-fig2-1').highcharts({
@@ -53,7 +52,7 @@ $(document).ready(function () {
         }]
     });
     $('#QJEP-2016-fig2-1').css({
-        "left": "-150px",
+        "left": "0px",
         "position": "absolute"
     });
     $('#QJEP-2016-fig2-2').highcharts({
@@ -103,7 +102,7 @@ $(document).ready(function () {
         }]
     });
     $('#QJEP-2016-fig2-2').css({
-        "left": "150px",
+        "left": "300px",
         "position": "absolute"
     });
 });

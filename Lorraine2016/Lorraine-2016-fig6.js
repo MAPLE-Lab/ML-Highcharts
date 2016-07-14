@@ -3,8 +3,6 @@
  */
 $(document).ready(function () {
     $('#Lorraine-2016-Figure6').css({
-        "left": "500px",
-        "top": "1600px",
         "position": "relative"
     });
     $('#Lorraine-2016-fig6-1').highcharts({
