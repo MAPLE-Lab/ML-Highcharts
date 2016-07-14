@@ -3,9 +3,9 @@
  */
 $(document).ready(function () {
     $('#QJEP-2016-Figure2').css({
-        "left": "250px",
+        "left": "400px",
         "position": "relative"
-    });
+    })
     $('#QJEP-2016-fig2-1').highcharts({
         chart: {
             type: 'column',
