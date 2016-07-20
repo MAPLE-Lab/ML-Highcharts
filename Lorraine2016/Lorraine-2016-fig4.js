@@ -1,5 +1,8 @@
 /**
- * Created by Kyle on 2016-07-14.
+ * MAPLE Lab Graphs
+ * Highcharts.js
+ *
+ * created by Kyle Gauder
  */
 $(document).ready(function () {
     $('#Lorraine-2016-Figure4').css({
