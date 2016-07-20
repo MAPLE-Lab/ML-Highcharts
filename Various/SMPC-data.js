@@ -14,11 +14,11 @@ $(document).ready(function () {
         },
         plotOptions: {
             column: {
-                stacking: 'norma,l'
+                stacking: 'normal'
             }
         },
         xAxis: {
-            categories: ["2001 Kingston","2003 Las Vegas","2005 (workshops)","2007 Montreal","2011 Indiana","2013 Toronto"], // X-AXIS CATEGORIES
+            categories: ["2001 Kingston","2003 Las Vegas","2005 (workshops)","2007 Montreal","2009 Indianapolis","2011 Rochester","2013 Toronto"], // X-AXIS CATEGORIES
             crosshair: true
         },
         yAxis: {
