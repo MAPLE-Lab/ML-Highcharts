@@ -1,5 +1,8 @@
 /**
- * Created by kyle on 2016-07-14.
+ * MAPLE Lab Graphs
+ * Highcharts.js
+ *
+ * created by Kyle Gauder
  */
 $(document).ready(function () {
     $('#SMPC-fig1').highcharts({
@@ -35,12 +38,12 @@ $(document).ready(function () {
             // First category of Data
             name: 'Posters',
             color: 'red',
-            data: [15,24,0,53,77,94],
+            data: [15,24,0,53,63,88,95],
         },{
             // First category of Data
             name: 'Talks',
             color: 'blue',
-            data: [64,60,0,75,108,199],
+            data: [65,60,0,75,75,104,187],
         },]
     });
     $('#SMPC-2016-Figure1').css({
