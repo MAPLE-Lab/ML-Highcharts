@@ -19,12 +19,16 @@ $(document).ready(function () {
         },
         xAxis: {
             categories: ["2001 Kingston","2003 Las Vegas","2005 (workshops)","2007 Montreal","2009 Indianapolis","2011 Rochester","2013 Toronto"], // X-AXIS CATEGORIES
-            crosshair: true
+            crosshair: true,
+            gridLineWidth: 0,
+            minorGridLineWidth: 0,
         },
         yAxis: {
             title: {
                 text: 'Scheduled Presentations' // Y-AXIS LABEL
             },
+            gridLineWidth: 0,
+            minorGridLineWidth: 0,
             min: 0, max: 300 // Y-AXIS SCALE
         },
         legend: {
