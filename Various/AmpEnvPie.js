@@ -34,6 +34,9 @@ $(document).ready(function () {
                 }
             }
         },
+        credits: {
+            enabled: false
+        },
         series: [{
             name: 'Amplitude Envelopes',
             colorByPoint: true,
