@@ -19,7 +19,7 @@ $(document).ready(function () {
             title: {
                 text: 'Amplitude envelope' // X-AXIS LABEL
             },
-            categories: ["Percussive", "Flat"], // X-AXIS CATEGORIES
+            categories: ["Percussive","Flat"], // X-AXIS CATEGORIES
             crosshair: true
         },
         yAxis: {
@@ -34,12 +34,12 @@ $(document).ready(function () {
         credits: {
             enabled: false
         },
-        tooltip: {enabled: false},
+        tooltip: { enabled: false },
         series: [{
             // First category of Data
             name: 'Data',
             color: 'grey',
-            data: [{y: 52.9, color: 'white'}, 32.67],
+            data: [{y: 52.9, color: 'white'},32.67],
         }, {
             name: 'Data error',
             type: 'errorbar',
