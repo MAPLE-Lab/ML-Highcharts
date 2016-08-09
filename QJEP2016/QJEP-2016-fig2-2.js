@@ -20,13 +20,21 @@ $(document).ready(function () {
                 text: 'Amplitude envelope' // X-AXIS LABEL
             },
             categories: ["Percussive","Flat"], // X-AXIS CATEGORIES
-            crosshair: true
+            crosshair: true,
+            minorGridLineWidth: 0,
+            gridLineWidth: 0,
+            lineColor: 'transparent',
+            lineWidth: 0,
         },
         yAxis: {
             title: {
                 text: 'As a percentage of sequences recognized' // Y-AXIS LABEL
             },
-            min: 0, max: 70 // Y-AXIS SCALE
+            min: 0, max: 70, // Y-AXIS SCALE
+            minorGridLineWidth: 0,
+            gridLineWidth: 0,
+            lineColor: 'transparent',
+            lineWidth: 0,
         },
         legend: {
             enabled: false
