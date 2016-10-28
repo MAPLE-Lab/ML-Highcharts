@@ -16,7 +16,7 @@ $(document).ready(function () {
             type: 'pie'
         },
         title: {
-            text: 'Effects of amplitude envelopes in Temporal Order Judgement tasks'
+            text: 'Survey of sounds used in the journal Music Perception'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
